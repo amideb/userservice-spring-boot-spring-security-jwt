@@ -13,7 +13,6 @@ import java.util.Collection;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-@Table
 public class User {
     @Id @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
